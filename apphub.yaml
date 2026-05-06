@@ -8,4 +8,4 @@ runtime:
 build:
   install: npm install
   build: npm run build
-  start: npm start
+  start: npm start -- -p ${PORT:-3000}
